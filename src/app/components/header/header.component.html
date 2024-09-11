@@ -1,0 +1,8 @@
+<div class="header">
+  <h2>RBAC</h2>
+  @if(isLoggedIn){
+    <a (click)="logout()">Logout</a>
+  }@else {
+    <a routerLink="/login">Login</a>
+  }
+</div>

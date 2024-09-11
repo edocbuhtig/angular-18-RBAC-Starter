@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "SunilKumar",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "isActive": false
+    },
+    {
+      "id": "joes123",
+      "name": "Joe S",
+      "email": "joe@gmail.com",
+      "password": "joe@123",
+      "role": "user",
+      "isActive": true
+    }
+  ]
+}
