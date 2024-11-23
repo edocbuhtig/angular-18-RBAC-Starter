@@ -5,11 +5,10 @@ import { Subscription } from 'rxjs';
 import { AuthServiceService } from '../../services/auth-service.service';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [RouterModule, CommonModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+    selector: 'app-header',
+    imports: [RouterModule, CommonModule],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit , OnDestroy{
 isLoggedIn :boolean = false;

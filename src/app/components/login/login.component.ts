@@ -9,16 +9,15 @@ import { AuthServiceService } from '../../services/auth-service.service';
 
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule,
-    MatInputModule,
-    MatCardModule,
-    MatButtonModule,
-    MatSnackBarModule,
-  ],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+    selector: 'app-login',
+    imports: [ReactiveFormsModule, RouterModule,
+        MatInputModule,
+        MatCardModule,
+        MatButtonModule,
+        MatSnackBarModule,
+    ],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.scss'
 })
 export class LoginComponent {
 

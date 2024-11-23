@@ -9,15 +9,14 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 
 
 @Component({
-  selector: 'app-register',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule,
-    MatInputModule,
-    MatCardModule,
-    MatButtonModule,
-    MatSnackBarModule,],
-  templateUrl: './register.component.html',
-  styleUrl: './register.component.scss'
+    selector: 'app-register',
+    imports: [ReactiveFormsModule, RouterModule,
+        MatInputModule,
+        MatCardModule,
+        MatButtonModule,
+        MatSnackBarModule,],
+    templateUrl: './register.component.html',
+    styleUrl: './register.component.scss'
 })
 export class RegisterComponent {
   constructor(private authService:AuthServiceService,private formBuilder:FormBuilder,private router:Router, private snackbar:MatSnackBar){}
